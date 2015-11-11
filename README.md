@@ -19,7 +19,7 @@ Java 1.6 or posterior
 -------------
 Introduction
 -------------
-* <b>Structures</b>: this tool produces structures as found in FrameNet (https://framenet.icsi.berkeley.edu/fndrupal/). The important difference with the FrameNet structures is that <b>all content-bearing units</b> are connected with one another. In other words, this parser does not consider spans of text as Frame Fillers. One other difference with the other Frame Semantics parsers is that this tool is designed with the objective to be multilingual.
+* <b>Structures</b>: this tool produces structures as found in FrameNet (https://framenet.icsi.berkeley.edu/fndrupal/). The important difference with the FrameNet structures is that <b>all content-bearing units</b> are connected with one another. In other words, this parser does not consider spans of text as Frame Fillers. One other difference with the other Frame Semantics parsers is we aim at eventually making our tool multilingual.
 The ouput provided by our tool is an adaptation of the CoNLL 2009 format (http://ufal.mff.cuni.cz/conll2009-st/task-description.html); the two differences are: (i) we only use 14 columns (the first 14, from "ID" to "PRED"); (ii) the "HEAD" and "DEPREL" columns can contain more than one element, in order to allow for multiple heads for one word.
 
 * <b>Tool</b>: the tool is developed on two independent aspects:
@@ -64,5 +64,5 @@ Example:
 -----------------
 Grammar versions
 -----------------
-<b>V0.5</b>
+<b>v0.5</b>
 TBD ...
