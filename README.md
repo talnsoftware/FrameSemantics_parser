@@ -61,3 +61,8 @@ Example:
 
 * Accepts absolute paths in input file (-i) and output folder (-o) parameters, if the input file is not in the same folder as the .jar.
 
+-----------------
+Grammar versions
+-----------------
+<b>V0.5</b>
+TBD ...
